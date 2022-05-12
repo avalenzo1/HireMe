@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    color: #000000;
+    font-family: 'Readex Pro', sans-serif;
+    height: 100vh;
+    position: relative;
+    border-radius: .25rem;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.navigation {
+    color: #fff;
+    padding: 0 1rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.navigation ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.navigation a {
+    display: block;
+    padding: .75rem;
+    color: #ffffff;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.navigation a:hover {
+    filter: brightness(80%);
+}
+
+.bordered {
+    padding: 1rem 2rem;
+    padding-top: 4rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.content {
+    padding: 1rem 2rem;
+    background: #e8f1f1;
+}
+
+img {
+    width: 200px;
+    max-width: 100%;
+    display: block;
+    border-radius: .5rem;
+    position: relative;
+    border: solid 2px #0098dd;
+    z-index: 20;
+}
+
+img:hover {
+    box-shadow: 0 0 0 3pt rgba(0, 200, 255, 0.3);
+}
+
+mark {
+    padding: 0 .25rem;
+    border-radius: .25rem;
+    border: solid 2px rgba(0,0,0,0.2);
+    display: inline-block;
+}
+
+mark.red {
+    background: #D0312D;
+    color: #ffffff;
+}
+
+mark.black {
+    background: #000000;
+    color: #ffffff;
+}
+
+mark.white {
+    background: #ffffff;
+    color: #000000;
+}
